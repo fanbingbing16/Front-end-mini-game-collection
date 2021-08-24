@@ -17,14 +17,15 @@
 			border-radius: 8px;
 		}
 		td{
-			width:20px;
-			height: 20px;
+			width:25px;
+			height:25px;
 			border: 1px solid #555;
 			color:#333;
 			text-align: center;
 			border-radius: 8px;
+			font-size: 1px;
 		}
-		div{
+		#app{
 			display:inline-block;
 			text-align: center;
 			background-color: antiquewhite;
@@ -32,9 +33,10 @@
 	</style>
 	
 	<body>
-		<h3 id="f"></h3>
+		<h3 id="f"><p>欢迎您的到了，希望您玩的愉快</p></h3>
 		<h3 id="score">分数：0</h3>
 	<div id="app"></div>
+	<div id="commit"><p> 操作说明：可键盘上下左右键移动，或者字母AWDS代表左上右下进行移动 </p></div>
 	<script src="js/Game.js"></script>
 	<script src="js/Snake.js"></script>
 	<script src="js/Food.js"></script>

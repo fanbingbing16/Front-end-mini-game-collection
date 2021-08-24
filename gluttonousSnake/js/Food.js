@@ -16,5 +16,5 @@ function Food(gameSnake){
 	console.log(this.row,this.col)
 }
 Food.prototype.render=function(){
-	game.setHTML(this.row,this.col,"🎁")
+	game.setHTML(this.row,this.col,"eat")
 }

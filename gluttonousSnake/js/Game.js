@@ -1,7 +1,7 @@
 
 function Game(){
-	this.row=20;
-	this.col=30;
+	this.row=18;
+	this.col=25;
 	this.score=0;
 	this.init()
 	this.snake=new Snake();
@@ -42,7 +42,7 @@ Game.prototype.setHTML=function(row,col,html){
 Game.prototype.bindEvent=function(){
 	document.onkeydown=function(event){
 		var self=this;
-		// console.log(event.keyCode,'event')//获取键盘按下左右上下的键盘码为37-40
+		console.log(event.keyCode,'event')//获取键盘按下左右上下的键盘码为37-40
 		switch(event.keyCode){
 			case 37:
 			   if(game.snake.direction=='R') return;
@@ -58,6 +58,22 @@ Game.prototype.bindEvent=function(){
 				break;
 			case 40:
 			    if(game.snake.direction=='U') return;
+				game.snake.changeDirection("D");
+				break;
+			case 65:
+				if(game.snake.direction=='R') return;
+				game.snake.changeDirection("L");
+				break;
+			case 87:
+				if(game.snake.direction=='D') return;
+				game.snake.changeDirection("U");
+				break;
+			case 68:
+				if(game.snake.direction=='L') return;
+			    game.snake.changeDirection("R");
+				break;
+			case 83:
+				if(game.snake.direction=='U') return;
 				game.snake.changeDirection("D");
 				break;
 		}
