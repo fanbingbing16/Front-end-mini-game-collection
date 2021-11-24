@@ -1,0 +1,47 @@
+.appCom tbody tr td{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+}
+.appCom {
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+.text p{
+   font-size: 20px;
+   margin-top: 10px;
+   margin-right: 10px;
+}
+.text{
+    display: flex;
+}
+.appCom button{
+    border: 1px solid #000;
+    background-color: rgb(23, 124, 255);
+    color: white;
+    width: 68px;
+    margin-top: 10px;
+    height: 30px;
+}
+.text button{
+    border: 1px solid #000;
+    background-color: rgb(23, 124, 255);
+    color: white;
+    width: 68px;
+    margin-top: 10px;
+    height: 30px;
+}
+
+.history button{
+    border: 1px solid #000;
+    background-color: rgb(23, 124, 255);
+    color: white;
+    width: 104px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}

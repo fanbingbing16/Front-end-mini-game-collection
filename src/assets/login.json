@@ -1,0 +1,87 @@
+{
+  "username": [
+    {
+      "id": 1,
+      "username": "x",
+      "password": "123456a@"
+    },
+    {
+      "id": 2,
+      "username": "y",
+      "password": "123456a@"
+    },
+    {
+      "id": 3,
+      "username": "123",
+      "password": "123456a@"
+    },
+    {
+      "id": 4,
+      "username": "456",
+      "password": "123456a@"
+    },
+    {
+      "id": 5,
+      "username": "789",
+      "password": "111111a@"
+    }
+  ],
+  "employe": [
+    {
+      "name": "覆盖",
+      "sex": "male",
+      "phone": "12345678911",
+      "emil": "123@163.com",
+      "time": "19/11/12",
+      "id": 8
+    },
+    {
+      "name": "12",
+      "sex": "male",
+      "phone": "12345678901",
+      "emil": "123@163.com",
+      "time": "19/11/14",
+      "id": 9
+    },
+    {
+      "emil": "4etywetr@qq.com",
+      "name": "566",
+      "sex": "male",
+      "phone": "33545667679",
+      "time": "21/11/14 ",
+      "id": 10
+    },
+    {
+      "emil": "fgt@qq.com",
+      "name": "123",
+      "sex": "male",
+      "phone": "45678990066",
+      "time": "21/11/14 ",
+      "id": 11
+    },
+    {
+      "emil": "657347657@qq.com",
+      "name": "ddddd",
+      "sex": "male",
+      "phone": "11233344667",
+      "time": "2021/12/15",
+      "id": 12
+    },
+    {
+      "emil": "fjhfry@qq.com",
+      "name": "35462",
+      "sex": "male",
+      "phone": "36734645744",
+      "time": "2021/12/09",
+      "id": 13
+    },
+    {
+      "emil": "dhsj@qq.com",
+      "name": "556",
+      "sex": "male",
+      "phone": "23243545667",
+      "time": "21/12/02",
+      "id": 14
+    }
+  ]
+}

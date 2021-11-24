@@ -1,0 +1,21 @@
+<div class="appCom" *ngIf="!search">
+    <tbody>
+        <tr *ngFor="let i of data">
+            <td *ngFor="let j of data" (click)="clickData(i,j)" #row></td>
+        </tr>
+    </tbody>
+    <div class="text">
+        <p *ngIf="!isWin">下一个选手{{nextText}}</p>
+        <p *ngIf="isWin">上一局{{winText.slice(-1)}}赢了</p>
+        <button *ngIf="isWin" (click)="nextAgin()">再来一局</button>
+    </div>
+    <div class="history">
+        <button (click)="searchText()">查看历史记录</button>
+        <button (click)="nextAgin()" *ngIf="!isWin">结束游戏</button>
+    </div>
+</div>
+<div class="appCom" *ngIf="search">
+    <p *ngFor="let item of winText;let i = index">第{{i+1}}局{{item}}赢了</p>
+    <p *ngIf="winText[0]===undefined">您没有游戏记录</p>
+    <button (click)="returnAgin()">返回游戏</button>
+</div>
